@@ -44,10 +44,10 @@
                 <div class="card-date">
                     date here
                 </div>
-                <div class="card__overviewtext">
+                <div class="card-overviewtext">
                     概要がはいります。概要がはいります。概要がはいります。概要がはいります。
-                    <div class="read-btn">
-                     <input type="button" value="" name="btn">
+                    <div class="read-mark">
+                    <li class='read-more'>READ MORE</li>
                     </div>
                 </div>
             </div>
