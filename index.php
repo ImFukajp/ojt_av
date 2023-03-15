@@ -10,6 +10,50 @@
 
 <body>
  
-</body>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section>
+    <spann class="sub-title">Latest Articles</span>
+        <div class="card card-skin">
+            <div class="card-imgframe"></div>
+            <div class="card-textbox">
+                <div class="card-date">
+                    date here
+                </div>
+                <div class="card__overviewtext">
+                    概要がはいります。概要がはいります。概要がはいります。概要がはいります。
+                    <div class="read-btn">
+                     <input type="button" value="" name="btn">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+</body>
 </html>
