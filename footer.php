@@ -1,7 +1,7 @@
 <footer>
-
-<label for="coppyrights">Sinohara.AllRIGHTS RESERVED</label>
+    <span>Copyright <small>&copy;</small></span>
 </footer>
-
+<?php wp_footer(); ?>
 </body>
+
 </html>
