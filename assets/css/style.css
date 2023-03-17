@@ -1,1 +1,87 @@
-/*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  /* padding: 0 auto; */
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 6%;
+}
+
+#cards {
+  display: flex;
+  padding: 5% 10%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* hover--------------------- */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 7px 34px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.5s;
+}
+
+.card {
+  width: auto;
+  height: 52vh;
+  margin-top: 1%;
+}
+
+/* date--------------------- */
+.card-date {
+  font-size: 0.8rem;
+  padding-left: 4%;
+}
+
+/* sub-titile ----------------*/
+.card-overviewtext {
+  list-style: none;
+  font-size: 0.8rem;
+  padding-left: 3%;
+}
+
+/* read-mark----------------- */
+.read {
+  text-align: end;
+  padding: 16% 6% 20% 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+li a {
+  /*線の基点とするためrelativeを指定*/
+  position: relative;
+}
+
+.gnavi li a {
+  color: #0b0b0b;
+  text-decoration-line: none;
+}
+
+.gnavi li a::after {
+  content: "";
+  position: absolute;
+  padding: 20%;
+  display: block;
+  border-bottom: 1px solid #333;
+  bottom: -185%;
+  right: 0%;
+  width: 0%;
+  height: 2px;
+  transition: all 0.3s;
+}
+
+.gnavi li .read a::after,
+.gnavi li a:hover::after {
+  width: 60%;
+}
+
+footer {
+  line-height: 5vh;
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */

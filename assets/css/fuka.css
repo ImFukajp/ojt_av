@@ -6,7 +6,7 @@
   width: 100%;
   height: auto;
   padding-top: 56.25%;
-  background-image: url(../../av_img/post_img_1.png);
+  background-image: url();
   background-size: cover;
   box-sizing: border-box;
 }
@@ -29,31 +29,4 @@
 li .read-more {
   list-style: none;
   font-size: 1.2rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*# sourceMappingURL=fuka.css.map */
+}/*# sourceMappingURL=fuka.css.map */

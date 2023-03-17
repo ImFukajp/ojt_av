@@ -1,0 +1,11 @@
+{
+    "php.validate.executablePath": "",
+    "liveSassCompile.settings.autoprefix": [],
+    "liveSassCompile.settings.formats": [ //Sassの出力内容の設定
+        {
+            "format": "expanded", //nested、compact、compressedのどれかを選ぶ
+            "extensionName": ".css", //style.cssとして出力
+            "savePath": "/assets/css" //cssフォルダの中にstyle.cssを出力
+        }
+    ],
+}
