@@ -1,0 +1,117 @@
+/* 合体前 */
+/* サイト幅指定 */
+.container{
+    width: 100%;
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* へっだー */
+/* pc表示 */
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+    padding-top: 50px;
+}
+/* sp>>>🍔 */
+/* 🍔ボタンの指定 */
+.btn{
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    /* ボタンの配置位置 */
+    position: fixed;
+    top: 32px;
+    right: 16px;
+    /* サイズ */
+    width: 48px;
+    height: 48px;
+    /* 最前面に */
+    z-index: 10;
+    /*background-color: #dbc1a7; /* ←🍔完成後コメントアウト */
+}
+/* 三本線 */
+.btn-line{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 3px;
+    background-color: gray;
+    transition: .2s;
+}
+.btn-line::before,
+.btn-line::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    transition: .5s;
+}
+/* 上下の線の位置してい */
+.btn-line::before{
+    transform: translateY(-16px);
+}
+.btn-line::after{
+    transform: translateY(16px);
+}
+
+/* 🍔open時に見えるメニューリストの指定 */
+.menu{
+    /* メニューリストの位置をマイナス指定で画面外に */
+    position: fixed;
+    right: -70%;
+
+    width: 70%;
+    height: 100vh;
+    margin-left: auto;
+    /* メニューリストを縦に */
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    transition: .3s;
+}
+.menu-list{
+    width: 100%;
+    height: 100%;
+    /* メニューリスト中央配置に */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* めいん */
+/* kv */
+.kv-slider{
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+/* .img-wrap{
+    text-align: center;
+    kvスライダーのための指定
+    position: relative;
+} */
+
+/* .img-wrap img{
+    kvスライダーのための指定
+    position: absolute;
+} */
+
+.logo{
+    position: absolute;
+    top: -80px;
+    left: -10px;
+}
+
+.oshya-moji{
+    position: absolute;
+    bottom: -50px;
+    right: 5px;
+}
+
